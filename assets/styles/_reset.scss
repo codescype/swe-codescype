@@ -1,0 +1,118 @@
+@import './variables.scss';
+
+body {
+  scrollbar-face-color: var(--v-primary-darken2);
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: map-get($shades, 'black');
+  // box-shadow: inset 0 0 3px 1px var(--v-primary-darken1)aa;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--v-primary-base);
+  background: linear-gradient(to bottom, var(--v-primary-base), var(--v-accent-darken3));
+  border-radius: 2px;
+  box-shadow: inset 0 0 1px var(--v-primary-lighten2);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--v-primary-lighten1);
+  background: linear-gradient(to bottom, var(--v-primary-lighten1), var(--v-accent-lighten1));
+  box-shadow: inset 0 0 1px var(--v-primary-base);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: var(--v-primary-darken4);
+  background: linear-gradient(to bottom, var(--v-primary-darken1), var(--v-accent-darken1));
+  box-shadow: inset 0 0 1px var(--v-primary-lighten1);
+}
+
+.mvh-100 {
+  min-height: 100vh !important;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.vw-100 {
+  width: 100vw;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.v-btn {
+  letter-spacing: 1.2px;
+}
+
+.rounded-1 {
+  border-radius: $spacer;
+}
+
+.rounded-2 {
+  border-radius: $spacer * 2;
+}
+
+.rounded-50 {
+  border-radius: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.letter-spacing-1 {
+  letter-spacing: 0.09rem !important;
+}
+
+.writing-mode-v-rl {
+  writing-mode: vertical-rl !important;
+}
+
+.filter-elevation {
+  filter: drop-shadow(0 2px 16px rgba(#3f5ee7, 0.5));
+}
+
+.clip-bottom-right {
+  $cut-height: 30px;
+  $cut-length: 40%;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 30px), calc(100% - 40%) calc(100% - 30px), calc(100% - (40% + 30px)) 100%, 0 100%);
+
+  @media #{map-get($display-breakpoints, 'sm-and-up')} {
+    $cut-height: 30px;
+    $cut-length: 40%;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), calc(100% - 40%) calc(100% - 50px), calc(100% - (40% + 50px)) 100%, 0 100%);
+  }
+
+
+
+}
+
+.children-flex-grow-none>* {
+  flex-grow: 0 !important;
+}
+
+/*   } */
+
+// .transition-slow {
+//   transition: all 0.7s $transition.swing;
+// }

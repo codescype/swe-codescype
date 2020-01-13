@@ -1,0 +1,41 @@
+$body-font-family : Muli,
+-apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+Oxygen-Sans,
+Ubuntu,
+Cantarell,
+"Helvetica Neue",
+sans-serif;
+
+$heading-font-family : 'Comfortaa',
+-apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+Oxygen-Sans,
+Ubuntu,
+Cantarell,
+"Helvetica Neue",
+sans-serif;
+
+$color-pack: false;
+
+$spacer: 8px;
+
+$shadow-key-umbra-opacity : rgba(100, 100, 100, 0.08);
+$shadow-key-penumbra-opacity : rgba(82, 64, 221, 0.1);
+$shadow-key-ambient-opacity : rgba(50, 50, 50, 0.06);
+
+$button-font-weight : 500;
+
+@import '~vuetify/src/styles/styles.sass';
+
+$material-dark: map-merge($material-dark, ('background': #10101E,
+    'text': ('theme': map-get($shades, 'black'),
+      'primary': #eceffb,
+      'secondary': rgba(#eceffb, 0.74),
+      'disabled': rgba(#eceffb, 0.48),
+      'link': map-get($blue, 'darken-2'),
+      'link-hover': map-get($grey, 'darken-3'))));

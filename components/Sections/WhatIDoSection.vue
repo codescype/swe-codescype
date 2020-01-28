@@ -49,14 +49,14 @@
           <br />
           With my experience as a Full Stack Developer you get
           <strong>(Web, Mobile or Desktop) Apps and Scripts</strong> that are
-          intuitive, fast, robust and scales well; I try give you the best
-          solution for your scenario.
+          intuitive, fast, robust and scales well; I will try to give you the
+          best solution for your scenario.
 
           <br />
           <br />
           Either it's a full or new development project, or it's an existing
           site you want to improve, or it's a bug you want to fix, is it tech
-          and involves software design and development, I am right here.
+          and it involves software design and development, I am right here.
         </p>
 
         <p class="title font-weight-regular">

@@ -4,7 +4,7 @@
       ref="what-i-do__heading"
       :class="[
         $vuetify.breakpoint.smAndUp ? 'headline' : 'title',
-        'text-right mb-4 text--secondary'
+        'what-i-do__heading pl-md-3 mb-4 text--secondary'
       ]"
     >
       <strong
@@ -17,28 +17,23 @@
       ><br />FOR YOU
     </h2>
 
-    <v-layout
-      wrap
-      class="what-i-do__frontend justify-center justify-md-space-between"
-    >
+    <v-layout wrap class="what-i-do justify-center justify-md-space-between">
       <v-flex
         xs12
         sm10
         md6
         lg5
         xl4
-        class="px-3 pl-md-0 pr-md-6 mb-4 mb-sm-6 mb-md-0 what-i-do__frontend__img-container"
+        class="px-3 pl-md-0 pr-md-6 mb-4 mb-sm-6 mb-md-0 what-i-do__img-container"
       >
-        <full-stack-developer-vector
-          class="what-i-do__frontend__img filter-elevation"
-        />
+        <full-stack-developer-vector class="what-i-do__img filter-elevation" />
       </v-flex>
 
       <v-flex
         xs12
         sm10
         md6
-        class="text-xs-right what-i-do__frontend__description pl-md-2"
+        class="what-i-do__description"
         style="max-width: 34rem;"
       >
         <p>
@@ -157,7 +152,13 @@ export default {
 <style lang="scss" scoped>
 // @import '@/assets/styles/variables.styl';
 
-.what-i-do__frontend {
+.what-i-do {
+  &__heading {
+    @media #{map-get($display-breakpoints, 'md-and-up')} {
+      margin-left: 50%;
+    }
+  }
+
   &__img {
     &-container {
       min-height: 60vh;
@@ -180,9 +181,7 @@ export default {
       padding-left: 16px;
     }
   } */
-}
 
-.what-i-do {
   &__item {
     background: 1px solid var(--v-accent-base);
     border-radius: 16px;

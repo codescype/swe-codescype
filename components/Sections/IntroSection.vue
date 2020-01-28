@@ -47,9 +47,8 @@
       <div class="intro__content-wrapper">
         <v-layout
           tag="content"
-          class="intro__content mx-auto text-center"
+          class="intro__content justify-end justify-md-start mx-auto text-center"
           column
-          justify-end
           align-center
         >
           <!-- <img
@@ -161,6 +160,8 @@ export default {
 <style lang="scss" scoped>
 @import '~assets/styles/variables.scss';
 
+$side-bar-avatar-height: 196px;
+
 $bg-image: url('~assets/img/backgrounds/developer-desk-3840-x-2160.jpg');
 $bg-image-blurred: url('~assets/img/backgrounds/developer-desk-3840-x-2160-blurred.jpg');
 $section-intro-padding: 24px;
@@ -265,6 +266,9 @@ $section-intro-padding: 24px;
     max-width: 600px;
     min-height: calc(100vh - 48px);
 
+    // @media #{map-get($display-breakpoints, 'md-and-up')} {
+    // }
+
     // padding: 24px;
     // background-color: #fff4;
     @media #{map-get($display-breakpoints, 'sm-and-up')} {
@@ -273,6 +277,7 @@ $section-intro-padding: 24px;
 
     @media #{map-get($display-breakpoints, 'md-and-up')} {
       padding: 40px;
+      padding-top: $side-bar-avatar-height + ($spacer * 8) + 40px;
     }
 
     &__name {
@@ -362,7 +367,7 @@ $section-intro-padding: 24px;
 
 .side-bar {
   &__avatar {
-    height: 196px;
+    height: $side-bar-avatar-height;
     background: var(--v-primary-base)
       url('/img/opeyemi-david/opeyemi-david-face.png');
     background-size: cover;

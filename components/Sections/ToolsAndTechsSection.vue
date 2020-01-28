@@ -17,8 +17,10 @@
             $vuetify.breakpoint.smAndUp ? 'display-2' : 'display-1',
             'red--text font-weight-bold'
           ]"
-          >TOOLS AND TECHNOLOGIES</strong
-        ><br />I USE
+        >
+          TOOLS AND TECHNOLOGIES
+        </strong>
+        I USE
       </h2>
 
       <v-row justify="center" justify-sm="space-around">

@@ -48,14 +48,15 @@ export default {
   },
 
   mounted() {
-    window.addEventListener('scroll', this.onScroll, false)
+    // window.addEventListener('scroll', this.onScroll, false)
+    this.isShown = true
   },
-  destroyed() {
-    window.removeEventListener('scroll', this.onScroll)
-  },
+  // destroyed() {
+  //   window.removeEventListener('scroll', this.onScroll)
+  // },
 
   methods: {
-    onScroll() {
+    /* onScroll() {
       // eslint-disable-next-line no-console
       // console.dir(document)
 
@@ -66,7 +67,7 @@ export default {
       // console.info(passedThreshold)
 
       this.isShown = passedThreshold
-    },
+    }, */
 
     calculateZIndex(route, currentRoute, totalNumberOfRoutes) {
       return totalNumberOfRoutes - Math.abs(currentRoute - route)

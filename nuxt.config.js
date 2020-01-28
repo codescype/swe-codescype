@@ -109,7 +109,16 @@ export default {
     'nuxt-webfontloader'
   ],
 
-  buildModules: ['@nuxtjs/vuetify', '@nuxtjs/eslint-module'],
+  buildModules: [
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/vuetify',
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-149018249-1'
+      }
+    ]
+  ],
 
   /*
    ** Axios module configuration

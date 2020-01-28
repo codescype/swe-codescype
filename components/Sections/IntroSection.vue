@@ -82,7 +82,7 @@
             </div>
 
             <a
-              href="#tools-and-tech"
+              href="#tools-and-techs"
               class="text--secondary"
               style="text-decoration: underline;"
             >

@@ -167,7 +167,7 @@ export default {
 
   webfontloader: {
     google: {
-      families: ['Muli:400, 500', 'Comfortaa:400, 700', 'Material Icons'] // Loads Lato font with weights 400 and 700
+      families: ['Muli:400, 500', 'Comfortaa:400, 700'] // Loads Lato font with weights 400 and 700
     }
   },
 

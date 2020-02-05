@@ -117,7 +117,10 @@ export default {
       {
         id: 'UA-149018249-1'
       }
-    ]
+    ],
+
+    /* make sure @nuxtjs/sitemap module is always at the bottom of the modules */
+    '@nuxtjs/sitemap'
   ],
 
   /*
@@ -172,6 +175,11 @@ export default {
   },
 
   modern: 'client',
+
+  sitemap: {
+    hostname: 'https://opeyemidavid.netlify.com',
+    gzip: true
+  },
 
   /*
    ** Build configuration

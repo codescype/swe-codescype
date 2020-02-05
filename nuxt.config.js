@@ -49,6 +49,11 @@ export default {
         hid: 'og-image',
         name: 'og-image',
         content: '/img/opeyemi-david/opeyemi-david-face.jpg'
+      },
+      {
+        hid: 'google-site-verification',
+        name: 'google-site-verification',
+        content: 'zP-nJHHf2LkFjbl5nyJ4FKCR7talY1ZNOhc01PXueb0'
       }
     ],
 

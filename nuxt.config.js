@@ -48,9 +48,10 @@ export default {
       {
         hid: 'og-image',
         name: 'og-image',
-        content: '~/assets/img/opeyemi-david.jpg'
+        content: '/img/opeyemi-david/opeyemi-david-face.jpg'
       }
     ],
+
     link: [
       {
         rel: 'apple-touch-icon',

@@ -22,7 +22,7 @@
 
           <h2
             class="headline font-weight-bold mb-sm-6"
-            style="letter-spacing: 0.05rem !important"
+            style="letter-spacing: 0.05rem !important;"
           >
             FULL STACK <br class="hidden-sm-and-up" />WEB DEVELOPER
           </h2>
@@ -61,10 +61,10 @@
           >
             <v-btn
               v-show="isShown"
-              @click.stop="toggleVisibility(false)"
               class="app-nav-drawer__menu-btn rounded-1 transition-swing"
               color="red"
               elevation="20"
+              @click.stop="toggleVisibility(false)"
             >
               <div :class="{ 'hamburger-menu': true, close: isShown }">
                 <div class="hamburger-menu__bars transition-swing">

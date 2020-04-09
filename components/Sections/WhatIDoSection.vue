@@ -63,9 +63,9 @@
             <v-flex
               v-for="(item, i) in items"
               :key="i"
-              v-text="item"
               shrink
               class="what-i-do__item py-3 px-4 elevation-15 ma-2 heading overflow-hidden"
+              v-text="item"
             />
           </v-layout>
         </div>

@@ -20,8 +20,8 @@
         leave-to-class="app-bar__menu-btn-container--hidden"
       >
         <div
-          ref="app-bar__menu-btn-container"
           v-show="isShown"
+          ref="app-bar__menu-btn-container"
           :class="[
             'app-bar__menu-btn-container transition-swing',
             hiddenMdAndUp && !$vuetify.breakpoint.smAndDown
@@ -31,10 +31,10 @@
           style="z-index: 300;"
         >
           <v-btn
-            @click.stop="$store.commit('setNavDrawerVisibility', true)"
             class="app-bar__menu-btn rounded-1"
             color="accent"
             elevation="20"
+            @click.stop="$store.commit('setNavDrawerVisibility', true)"
           >
             <div :class="{ 'hamburger-menu': true, close: appDrawerIsShown }">
               <div class="hamburger-menu__bars transition-swing">
@@ -63,11 +63,11 @@
           class="app-bar__nav-btn-container rounded-1 primary elevation-5"
         >
           <v-btn
-            @click.stop="$vuetify.goTo(previousRouteLink)"
             :href="previousRouteLink"
             :disabled="!previousRouteLink"
             class="app-bar__nav-btn--left"
             text
+            @click.stop="$vuetify.goTo(previousRouteLink)"
           >
             <v-icon>{{ mdiChevronLeft }}</v-icon>
           </v-btn>
@@ -75,11 +75,11 @@
           <span class="text--disabled">/</span>
 
           <v-btn
-            @click.stop="$vuetify.goTo(nextRouteLink)"
             :href="nextRouteLink"
             :disabled="!nextRouteLink"
             class="app-bar__nav-btn--right"
             text
+            @click.stop="$vuetify.goTo(nextRouteLink)"
           >
             <v-icon>{{ mdiChevronRight }}</v-icon>
           </v-btn>

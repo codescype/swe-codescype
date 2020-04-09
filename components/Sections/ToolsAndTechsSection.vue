@@ -42,12 +42,12 @@
                 style="width: 56px; height: 56px;"
                 class="flex-shrink-1 mr-2"
               />
-              <p v-text="language.name" class="mb-0 flex-grow-1"></p>
+              <p class="mb-0 flex-grow-1" v-text="language.name"></p>
             </div>
 
             <v-divider
-              :key="language.name + '-divider'"
               v-if="i !== languages.length - 1"
+              :key="language.name + '-divider'"
               class="my-2"
               color="orange"
             />
@@ -71,7 +71,7 @@
             >
               <img :src="tech.imgSrc" style="width: 72px; height: 72px;" />
 
-              <p v-text="tech.name" class="mt-1 mb-0"></p>
+              <p class="mt-1 mb-0" v-text="tech.name"></p>
             </v-col>
           </v-row>
         </v-col>

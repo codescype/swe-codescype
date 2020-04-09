@@ -1,5 +1,20 @@
 <template>
-  <header id="home" class="section__intro overflow-hidden">
+  <header
+    id="home"
+    ref="intro-section"
+    :style="{ '--bits-animation-play-state': shouldAnimateBits }"
+    :v-observe-visibility="{
+      intersection: {
+        threshold: 0.6
+      },
+      throttle: 300,
+      throttleOptions: {
+        leading: 'visible'
+      },
+      callback: (isVisible) => (shouldAnimateBits = isVisible)
+    }"
+    class="section__intro overflow-hidden"
+  >
     <!-- intro -->
     <!-- TODO: Turn background into parallax -->
     <v-layout class="intro" justify-space-between dark>
@@ -60,7 +75,7 @@
           <div>
             <h2
               class="headline font-weight-bold mb-3"
-              style="letter-spacing: 0.05rem !important"
+              style="letter-spacing: 0.05rem !important;"
             >
               FULL STACK <br class="hidden-sm-and-up" />WEB DEVELOPER
             </h2>
@@ -76,7 +91,7 @@
               >
                 <img :src="tech.imgSrc" style="width: 48px; height: 48px;" />
 
-                <p v-text="tech.title" class="mt-1 mb-3"></p>
+                <p class="mt-1 mb-3" v-text="tech.title"></p>
               </v-layout>
             </div>
 
@@ -114,7 +129,6 @@
 
 <script>
 import { mdiContactPhone } from '@mdi/js'
-
 import AppBar from '../core/AppBar'
 
 export default {
@@ -122,6 +136,8 @@ export default {
 
   data() {
     return {
+      shouldAnimateBits: false,
+
       langAndTech: [
         {
           title: 'Vue',
@@ -167,6 +183,8 @@ $bg-image-blurred: url('~assets/img/backgrounds/developer-desk-3840-x-2160-blurr
 $section-intro-padding: 24px;
 
 .section__intro {
+  --bits-animation-play-state: paused;
+
   position: relative;
   min-height: 100vh;
   // TODO: Use mixin for bg-img
@@ -226,6 +244,21 @@ $section-intro-padding: 24px;
     background-size: 128px;
     mix-blend-mode: multiply;
     z-index: -1;
+    opacity: 0;
+    animation: slide-bits 5s linear 2 both;
+    animation-play-state: --bits-animation-play-state;
+  }
+
+  @keyframes slide-bits {
+    0% {
+      background-position: 0 -100%;
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 1;
+      background-position: 0 0;
+    }
   }
 }
 

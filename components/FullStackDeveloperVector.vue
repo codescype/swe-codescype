@@ -371,7 +371,7 @@
           />
           <path
             d="M191.5 304.45a16.54 16.54 0 00-13.4 0v-4.78a16.54 16.54 0 0113.4 0z"
-            style="mix-blend-mode:multiply"
+            style="mix-blend-mode: multiply;"
             fill="#224dc2"
             opacity=".65"
           />

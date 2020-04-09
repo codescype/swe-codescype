@@ -12,8 +12,8 @@
 
     <transition :duration="1000" name="fade-transition">
       <app-bar
-        :is-shown="appBarIsShown"
         v-show="appBarIsShown"
+        :is-shown="appBarIsShown"
         class="app-bar-container"
       />
     </transition>

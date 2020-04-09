@@ -196,11 +196,11 @@ export const state = () => ({
 })
 
 export const getters = {
-  canGoToNextRoute: state => {
+  canGoToNextRoute: (state) => {
     return state.currentRoute + 1 < state.routes.length
   },
 
-  canGoToPreviousRoute: state => {
+  canGoToPreviousRoute: (state) => {
     return state.currentRoute > 0
   },
 

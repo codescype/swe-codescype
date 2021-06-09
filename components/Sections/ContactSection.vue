@@ -25,9 +25,9 @@
         style="max-width: 28rem;"
       >
         <img
-          src="/img/opeyemi-david/opeyemi-david-sitting.jpg"
+          src="/img/opeyemi-david/Opeyemi-David-portrait.jpg"
           alt="Opeyemi David"
-          style="width: 100%; height: auto;"
+          style="width: 100%; height: auto; border-radius: 32px;"
         />
 
         <div class="mt-4 title">
@@ -79,13 +79,9 @@
 
       <v-col style="max-width: 34rem;">
         <p class="title text--secondary mb-4">
-          A courageous, optimistic and hardworking Front/Back-end or Web
-          Developer who likes to make the best exploit of every resource he has.
-          <br />
-          <br />
-          A man that diligently seeks a role/roles that can make his dream of
-          “taking technology to an advanced level in another face” come true
-          through great innovations.
+          I am a courageous, optimistic, and keen individual, a Software
+          Engineer, who likes to make the best exploit of every resource he has
+          to build and contribute to systems that can revolutionize life.
         </p>
 
         <!-- <transition name="slide-y-transition" appear> -->

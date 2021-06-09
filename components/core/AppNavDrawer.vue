@@ -28,14 +28,9 @@
           </h2>
 
           <p class="text--secondary hidden-xs-only mb-sm-4">
-            A courageous, optimistic and hardworking Front/Back-end or Web
-            Developer who likes to make the best exploit of every resource he
-            has.
-            <br />
-            <br />
-            A man that diligently seeks a role/roles that can make his dream of
-            “taking technology to an advanced level in another face” come true
-            through great innovations.
+            I am a courageous, optimistic, and keen individual, a Software
+            Engineer, who likes to make the best exploit of every resource he
+            has to build and contribute to systems that can revolutionize life.
           </p>
 
           <div class="hidden-xs-only">

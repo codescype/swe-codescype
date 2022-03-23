@@ -49,15 +49,15 @@ export const state = () => ({
     main: [
       {
         title: 'Phone',
-        value: '+2348147678919',
+        value: '+2347039793175',
         icon: mdiPhone
       },
 
       {
         title: 'Email',
-        value: 'ayobamideleope79@gmail.com',
+        value: 'codescype@gmail.com',
         icon: mdiEmail,
-        link: 'mailto:ayobamideleope79@gmail.com'
+        link: 'mailto:codescype@gmail.com'
       },
 
       {
@@ -70,12 +70,12 @@ export const state = () => ({
     social: [
       {
         title: 'LinkedIn',
-        link: 'https://www.linkedin.com/in/ayobamideleope',
+        link: 'https://www.linkedin.com/in/codescype',
         imgSrc: '/svg/icons/social/linkedin.svg'
       },
       {
         title: 'Github',
-        link: 'https://www.github.com/ayobamideleope',
+        link: 'https://www.github.com/codescype',
         imgSrc: '/svg/icons/tools-and-techs/github.svg'
       },
       {

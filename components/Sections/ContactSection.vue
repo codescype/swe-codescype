@@ -85,9 +85,7 @@
         </p>
 
         <!-- <transition name="slide-y-transition" appear> -->
-        <p class="display-1 mb-2">
-          <span class="red--text">@</span>ayobamideleope
-        </p>
+        <p class="display-1 mb-2"><span class="red--text">@</span>codescype</p>
 
         <!-- <div v-show="isShown" class="app-nav-drawer__nav-links mt-sm-8"> -->
         <div v-show="true" class="app-nav-drawer__nav-links">

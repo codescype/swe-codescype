@@ -18,15 +18,13 @@
     <!-- intro -->
     <!-- TODO: Turn background into parallax -->
     <v-layout class="intro" justify-space-between dark>
-      <div class="hidden-sm-and-down" style="flex-grow: 1;">
+      <div class="hidden-sm-and-down" style="flex-grow: 1">
         <transition name="slide-x-reverse-transition" appear>
           <nav class="intro__side-bar-wrapper">
             <div class="intro__side-bar pt-1">
               <!-- NOTE: don't use margin-bottom, it breaks the wrapper -->
               <div class="side-bar__avatar mx-1">
-                <h1 class="white--text headline text-center">
-                  Opeyemi David
-                </h1>
+                <h1 class="white--text headline text-center">Opeyemi David</h1>
               </div>
 
               <div class="side-bar__nav-links mt-8">
@@ -75,9 +73,10 @@
           <div>
             <h2
               class="headline font-weight-bold mb-3"
-              style="letter-spacing: 0.05rem !important;"
+              style="letter-spacing: 0.05rem !important"
             >
-              FULL STACK <br class="hidden-sm-and-up" />WEB DEVELOPER
+              <small>(FULL STACK)</small>
+              <br class="hidden-sm-and-up" />SOFTWARE ENGINEER
             </h2>
 
             <div class="d-flex justify-center">
@@ -85,11 +84,11 @@
                 v-for="tech in langAndTech"
                 :key="tech.title"
                 class="pa-1"
-                style="max-width: 96px; flex-direction: column;"
+                style="max-width: 96px; flex-direction: column"
                 column
                 align-center
               >
-                <img :src="tech.imgSrc" style="width: 48px; height: 48px;" />
+                <img :src="tech.imgSrc" style="width: 48px; height: 48px" />
 
                 <p class="mt-1 mb-3" v-text="tech.title"></p>
               </v-layout>
@@ -98,7 +97,7 @@
             <a
               href="#tools-and-techs"
               class="text--secondary"
-              style="text-decoration: underline;"
+              style="text-decoration: underline"
             >
               See all the Techs and Tools I'm familiar with</a
             >
@@ -114,7 +113,7 @@
               <v-icon left>
                 {{ mdiContactPhone }}
               </v-icon>
-              HIRE ME
+              Let's Work Together
             </v-btn>
           </div>
         </v-layout>

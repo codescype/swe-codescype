@@ -34,7 +34,7 @@
         sm10
         md6
         class="what-i-do__description"
-        style="max-width: 34rem;"
+        style="max-width: 34rem"
       >
         <p>
           You don't just get <strong>websites</strong> that are beautiful but
@@ -55,7 +55,8 @@
         </p>
 
         <p class="title font-weight-regular">
-          Do you have a project at hand? <v-btn color="accent">HIRE ME</v-btn>
+          Do you have a project at hand?
+          <v-btn color="accent">Let's Work Together</v-btn>
         </p>
 
         <div xs12>

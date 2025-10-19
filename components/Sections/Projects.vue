@@ -5,7 +5,7 @@
         >PROJECTS</strong
       >
       <br />
-      <span class="d-block" style="margin-top: -8px;">I'VE WORKED ON</span>
+      <span class="d-block" style="margin-top: -8px">I'VE WORKED ON</span>
     </h2>
 
     <!-- TODO: Change element to v-grid -->
@@ -38,7 +38,7 @@
               src="/img/opeyemi-david/opeyemi-david-face.png"
               alt="Project Name"
               class="project__content__img w-100 my-3"
-              style="height: auto; max-height: 240px; object-fit: contain;"
+              style="height: auto; max-height: 240px; object-fit: contain"
             />
           </div>
           <div class="project__logo secondary"></div>

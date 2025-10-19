@@ -12,17 +12,15 @@
           cols="12"
           sm="5"
           class="mb-4 mb-sm-0 position-relative"
-          style="max-width: 25rem;"
+          style="max-width: 25rem"
         >
           <div class="app-nav-drawer__avatar mx-auto mb-3">
-            <h1 class="white--text headline text-center">
-              Opeyemi David
-            </h1>
+            <h1 class="white--text headline text-center">Opeyemi David</h1>
           </div>
 
           <h2
             class="headline font-weight-bold mb-sm-6"
-            style="letter-spacing: 0.05rem !important;"
+            style="letter-spacing: 0.05rem !important"
           >
             FULL STACK <br class="hidden-sm-and-up" />WEB DEVELOPER
           </h2>
@@ -43,7 +41,7 @@
                 title="social.title"
                 class="px-1"
               >
-                <img :src="social.imgSrc" style="width: 40px; height: 40px;" />
+                <img :src="social.imgSrc" style="width: 40px; height: 40px" />
               </a>
             </div>
           </div>
@@ -114,7 +112,7 @@
               rel="noopener"
               class="px-1"
             >
-              <img :src="contact.imgSrc" style="width: 40px; height: 40px;" />
+              <img :src="contact.imgSrc" style="width: 40px; height: 40px" />
             </a>
           </div>
         </v-col>

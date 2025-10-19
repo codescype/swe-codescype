@@ -29,7 +29,7 @@
           sm="5"
           order="1"
           order-sm="2"
-          style="max-width: 296px;"
+          style="max-width: 296px"
           class="tools-and-techs__languages elevation-20 rounded-2"
         >
           <template v-for="(language, i) in languages">
@@ -39,7 +39,7 @@
             >
               <img
                 :src="language.imgSrc"
-                style="width: 56px; height: 56px;"
+                style="width: 56px; height: 56px"
                 class="flex-shrink-1 mr-2"
               />
               <p class="mb-0 flex-grow-1" v-text="language.name"></p>
@@ -59,7 +59,7 @@
           sm="7"
           order="2"
           order-sm="1"
-          style="max-width: 720px;"
+          style="max-width: 720px"
           class="tools-and-techs__others pa-2 elevation-24 rounded-2"
         >
           <v-row>
@@ -67,9 +67,9 @@
               v-for="tech in techs"
               :key="tech.title"
               class="tools-and-techs__tech d-flex flex-column align-center rounded-1 transition-swing"
-              style="max-width: 128px;"
+              style="max-width: 128px"
             >
-              <img :src="tech.imgSrc" style="width: 72px; height: 72px;" />
+              <img :src="tech.imgSrc" style="width: 72px; height: 72px" />
 
               <p class="mt-1 mb-0" v-text="tech.name"></p>
             </v-col>

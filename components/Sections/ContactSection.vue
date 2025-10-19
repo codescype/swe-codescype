@@ -22,12 +22,12 @@
         cols="12"
         sm="5"
         class="mb-4 mb-sm-0 position-relative"
-        style="max-width: 28rem;"
+        style="max-width: 28rem"
       >
         <img
           src="/img/opeyemi-david/Opeyemi-David-portrait.jpg"
           alt="Opeyemi David"
-          style="width: 100%; height: auto; border-radius: 32px;"
+          style="width: 100%; height: auto; border-radius: 32px"
         />
 
         <div class="mt-4 title">
@@ -77,7 +77,7 @@
           </transition> -->
       </v-col>
 
-      <v-col style="max-width: 34rem;">
+      <v-col style="max-width: 34rem">
         <p class="title text--secondary mb-4">
           I am a courageous, optimistic, and keen individual, a Software
           Engineer, who likes to make the best exploit of every resource he has
@@ -98,7 +98,7 @@
             rel="noopener"
             class="px-2"
           >
-            <img :src="contact.imgSrc" style="width: 64px; height: 64px;" />
+            <img :src="contact.imgSrc" style="width: 64px; height: 64px" />
           </a>
         </div>
         <!-- </transition> -->

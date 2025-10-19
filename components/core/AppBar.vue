@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="py-0" style="max-width: 100vw;">
+  <v-container fluid class="py-0" style="max-width: 100vw">
     <div class="d-flex justify-space-between">
       <!-- TODO: add internal animations -->
       <!-- <div
@@ -28,7 +28,7 @@
               ? 'app-bar__menu-btn-container--hidden'
               : ''
           ]"
-          style="z-index: 300;"
+          style="z-index: 300"
         >
           <v-btn
             class="app-bar__menu-btn rounded-1"

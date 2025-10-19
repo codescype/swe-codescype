@@ -5,8 +5,6 @@ import colors from 'vuetify/es5/util/colors'
 // import vuetify from './plugins/vuetify'
 
 export default {
-  mode: 'universal',
-
   /*
    ** Headers of the page
    */
@@ -116,7 +114,7 @@ export default {
   ],
 
   buildModules: [
-    '@nuxtjs/eslint-module',
+    // removed '@nuxtjs/eslint-module' to avoid runtime ESLint loader/plugin issues
     '@nuxtjs/vuetify',
     [
       '@nuxtjs/google-analytics',
@@ -180,8 +178,6 @@ export default {
     }
   },
 
-  modern: 'client',
-
   sitemap: {
     hostname: 'https://opeyemidavid.netlify.com',
     gzip: true
@@ -193,7 +189,7 @@ export default {
   build: {
     loaders: {
       scss: {
-        prependData: `
+        additionalData: `
           @import "~/assets/styles/variables.scss";
         `
       }

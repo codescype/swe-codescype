@@ -4,7 +4,6 @@ import {
   mdiTools,
   // mdiBriefcase,
   // mdiOfficeBuilding,
-  mdiContactPhone,
   mdiEmail,
   mdiPhone,
   mdiMapMarker
@@ -34,7 +33,7 @@ export const state = () => ({
     // },
     {
       title: 'Contact',
-      icon: mdiContactPhone,
+      icon: mdiPhone,
       link: '#contact'
     }
   ],

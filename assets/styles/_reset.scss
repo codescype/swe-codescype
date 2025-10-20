@@ -4,6 +4,19 @@ body {
   scrollbar-face-color: var(--v-primary-darken2);
 }
 
+/* Set global font-family to Red Hat Text (imported in variables.scss) */
+html, body {
+  font-family: ¡-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif;
+  letter-spacing: 0.02em;
+}
+
 ::-webkit-scrollbar {
   width: 0.6rem;
 }

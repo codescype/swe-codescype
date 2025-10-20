@@ -1,6 +1,6 @@
 # Codescype's Software Engineer Portfolio
 
-> Full Stack Web Developer Portfolio for Opeyemi David
+> A Senior Full Stack Software Engineer Portfolio for Codescype
 
 ## Build Setup
 

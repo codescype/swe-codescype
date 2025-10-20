@@ -61,7 +61,7 @@ export const state = () => ({
 
       {
         title: 'Location',
-        value: 'Ibadan, Nigeria',
+        value: 'Lekki, Lagos, Nigeria',
         icon: mdiMapMarker
       }
     ],

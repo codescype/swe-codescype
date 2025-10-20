@@ -101,7 +101,7 @@
               class="text--secondary"
               style="text-decoration: underline"
             >
-              See all the Techs and Tools I'm familiar with</a
+              See most of the Techs and Tools I'm familiar with</a
             >
             <br />
 

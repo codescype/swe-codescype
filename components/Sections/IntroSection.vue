@@ -75,8 +75,10 @@
               class="headline font-weight-bold mb-3"
               style="letter-spacing: 0.05rem !important"
             >
-              <small>(FULL STACK)</small>
-              <br class="hidden-sm-and-up" />SOFTWARE ENGINEER
+              Senior
+              <br class="hidden-sm-and-up" />
+              (Full-Stack)
+              <br class="hidden-sm-and-up" />Software Engineer
             </h2>
 
             <div class="d-flex justify-center">
@@ -139,20 +141,20 @@ export default {
 
       langAndTech: [
         {
-          title: 'Vue',
-          imgSrc: '/svg/icons/tools-and-techs/vue.svg'
+          title: 'TypeScript',
+          imgSrc: '/svg/icons/languages/typescript.svg'
+        },
+        {
+          title: 'Next.js',
+          imgSrc: '/svg/icons/tools-and-techs/nextjs.svg'
         },
         {
           title: 'Flutter',
           imgSrc: '/svg/icons/tools-and-techs/flutter.svg'
         },
         {
-          title: 'Firebase',
-          imgSrc: '/svg/icons/tools-and-techs/firebase.png'
-        },
-        {
-          title: 'Laravel',
-          imgSrc: '/svg/icons/tools-and-techs/laravel-2.svg'
+          title: 'Node.js',
+          imgSrc: '/svg/icons/tools-and-techs/nodejs.png'
         }
       ],
 

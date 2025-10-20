@@ -79,12 +79,12 @@ export const state = () => ({
       },
       {
         title: 'Facebook',
-        link: 'https://www.facebook.com/ayobamideleope',
+        link: 'https://www.facebook.com/codescype',
         imgSrc: '/svg/icons/social/facebook.svg'
       },
       {
         title: 'Twitter',
-        link: 'https://www.twitter.com/ayobamideleope',
+        link: 'https://www.twitter.com/codescype',
         imgSrc: '/svg/icons/social/twitter.svg'
       }
     ]
@@ -93,103 +93,112 @@ export const state = () => ({
   toolsAndTechs: {
     languages: [
       {
-        name: 'JavaScript',
-        imgSrc: '/svg/icons/languages/javascript.svg'
-      },
-      {
-        name: 'CSS',
-        imgSrc: '/svg/icons/languages/css3.svg'
+        name: 'PHP',
+        imgSrc: '/svg/icons/languages/php.svg'
       },
       {
         name: 'Python',
         imgSrc: '/svg/icons/languages/python.svg'
       },
       {
-        name: 'PHP',
-        imgSrc: '/svg/icons/languages/php.svg'
-      },
-      {
-        name: 'HTML',
-        imgSrc: '/svg/icons/languages/html5.svg'
-      },
-      {
-        name: 'MySQL',
-        imgSrc: '/svg/icons/languages/mysql.svg'
-      }
-    ],
-    others: [
-      {
-        name: 'Nuxt',
-        imgSrc: '/svg/icons/tools-and-techs/nuxt.svg'
+        name: 'JavaScript',
+        imgSrc: '/svg/icons/languages/javascript.svg'
       },
       {
         name: 'TypeScript',
-        imgSrc: '/svg/icons/tools-and-techs/typescript.svg'
+        imgSrc: '/svg/icons/languages/typescript.svg'
       },
       {
-        name: 'Adobe XD',
-        imgSrc: '/svg/icons/tools-and-techs/adobe-xd.svg'
+        name: 'Dart',
+        imgSrc: '/svg/icons/languages/dart.jpg'
+      },
+      {
+        name: 'Rust',
+        imgSrc: '/svg/icons/languages/rust.svg'
+      },
+    ],
+    others: [
+      {
+        name: 'ClickUp',
+        imgSrc: '/svg/icons/tools-and-techs/clickup.svg'
       },
       {
         name: 'GitHub',
         imgSrc: '/svg/icons/tools-and-techs/github.svg'
       },
       {
-        name: 'Firebase',
-        imgSrc: '/svg/icons/tools-and-techs/firebase.png'
+        name: 'Figma',
+        imgSrc: '/svg/icons/tools-and-techs/figma.svg'
+      },
+      {
+        name: 'HTML',
+        imgSrc: '/svg/icons/tools-and-techs/html5.svg'
+      },
+      {
+        name: 'CSS',
+        imgSrc: '/svg/icons/tools-and-techs/css3.svg'
       },
       {
         name: 'Vue',
         imgSrc: '/svg/icons/tools-and-techs/vue.svg'
       },
       {
-        name: 'Figma',
-        imgSrc: '/svg/icons/tools-and-techs/figma.svg'
+        name: 'React',
+        imgSrc: '/svg/icons/tools-and-techs/react.svg'
       },
       {
-        name: 'Linux',
-        imgSrc: '/svg/icons/tools-and-techs/linux.svg'
+        name: 'Nuxt',
+        imgSrc: '/svg/icons/tools-and-techs/nuxt.svg'
       },
       {
-        name: 'Adobe Illustrator',
-        imgSrc: '/svg/icons/tools-and-techs/adobe-illustrator-cc.svg'
+        name: 'Next.js',
+        imgSrc: '/svg/icons/tools-and-techs/nextjs.svg'
       },
       {
-        name: 'Node JS',
-        imgSrc: '/svg/icons/tools-and-techs/nodejs.svg'
-      },
-      {
-        name: 'Laravel',
-        imgSrc: '/svg/icons/tools-and-techs/laravel.svg'
+        name: 'React Native',
+        imgSrc: '/svg/icons/tools-and-techs/react.svg'
       },
       {
         name: 'Flutter',
         imgSrc: '/svg/icons/tools-and-techs/flutter.svg'
       },
       {
-        name: 'Netlify',
-        imgSrc: '/svg/icons/tools-and-techs/netlify.svg'
+        name: 'Laravel',
+        imgSrc: '/svg/icons/tools-and-techs/laravel.svg'
       },
       {
-        name: 'Sass',
-        imgSrc: '/svg/icons/tools-and-techs/sass.svg'
-      },
-      {
-        name: 'Photoshop',
-        imgSrc: '/svg/icons/tools-and-techs/photoshop-cc.svg'
-      },
-      {
-        name: 'InVision',
-        imgSrc: '/svg/icons/tools-and-techs/invision.svg'
-      },
-      {
-        name: 'Webpack',
-        imgSrc: '/svg/icons/tools-and-techs/webpack.svg'
+        name: 'Node JS',
+        imgSrc: '/svg/icons/tools-and-techs/nodejs.png'
       },
       {
         name: 'Mongo DB',
         imgSrc: '/svg/icons/tools-and-techs/mongodb.svg'
-      }
+      },
+      {
+        name: 'PostgreSQL',
+        imgSrc: '/svg/icons/tools-and-techs/postgresql.svg'
+      },
+      {
+        name: 'Netlify',
+        imgSrc: '/svg/icons/tools-and-techs/netlify.svg'
+      },
+      {
+        name: 'Firebase',
+        imgSrc: '/svg/icons/tools-and-techs/firebase.png'
+      },
+      {
+        name: 'GCP',
+        imgSrc: '/svg/icons/tools-and-techs/gcp.svg'
+      },
+      {
+        name: 'AWS',
+        imgSrc: '/svg/icons/tools-and-techs/aws.svg'
+      },
+      {
+        name: 'OpenAI',
+        imgSrc: '/svg/icons/tools-and-techs/openai.svg'
+      },
+
     ]
   }
 })

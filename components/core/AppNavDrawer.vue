@@ -22,7 +22,10 @@
             class="headline font-weight-bold mb-sm-6"
             style="letter-spacing: 0.05rem !important"
           >
-            FULL STACK <br class="hidden-sm-and-up" />WEB DEVELOPER
+            Senior
+              <br class="hidden-sm-and-up" />
+              (Full-Stack)
+              <br class="hidden-sm-and-up" />Software Engineer
           </h2>
 
           <p class="text--secondary hidden-xs-only mb-sm-4">

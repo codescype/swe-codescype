@@ -1,4 +1,4 @@
-# developer-opeyemi-david
+# Codescype's Software Engineer Portfolio
 
 > Full Stack Web Developer Portfolio for Opeyemi David
 

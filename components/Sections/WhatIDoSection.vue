@@ -36,30 +36,9 @@
         class="what-i-do__description"
         style="max-width: 34rem"
       >
-        <p>
-          You don't just get <strong>websites</strong> that are beautiful but
-          lacks on performance, accessibility and efficiency.
 
-          <br />
-          <br />
-          With my experience as a Full Stack Developer you get
-          <strong>(Web, Mobile or Desktop) Apps and Scripts</strong> that are
-          intuitive, fast, robust and scales well; I will try to give you the
-          best solution for your scenario.
 
-          <br />
-          <br />
-          Either it's a full or new development project, or it's an existing
-          site you want to improve, or it's a bug you want to fix, is it tech
-          and it involves software design and development, I am right here.
-        </p>
-
-        <p class="title font-weight-regular">
-          Do you have a project at hand?
-          <v-btn color="accent">Let's Work Together</v-btn>
-        </p>
-
-        <div xs12>
+        <div xs12 class=" mb-4 ml-n3">
           <v-layout wrap>
             <v-flex
               v-for="(item, i) in items"
@@ -70,6 +49,27 @@
             />
           </v-layout>
         </div>
+
+        <p>
+          You don't just get applications that are beautiful but
+          lacks on performance, accessibility and efficiency.
+
+          <br />
+          <br />
+          With my experience as a Senior Full-Stack Software Developer, you get
+          <strong>(Web, Mobile or Desktop) Apps and Scripts</strong> that are
+          intuitive, fast, robust and scales well; I try to give you the
+          best solution for your scenario.
+
+          <br />
+          <br />
+          Either it's a new development project, or it's an existing
+          one you want to improve, or it's a bug you want to fix, I am right here.
+        </p>
+
+
+
+        <v-btn color="accent" class="ml-n1" href="#contact">Let's Work Together</v-btn>
       </v-flex>
     </v-layout>
   </v-container>
@@ -85,15 +85,15 @@ export default {
     return {
       frontendBuild: [
         {
-          title: 'Web App',
+          title: 'Web Apps',
           imgSrc: '/svg/icons/tools-and-techs/devices.svg'
         },
         {
-          title: 'Mobile App',
+          title: 'Mobile Apps',
           imgSrc: '/svg/icons/tools-and-techs/cellphone-iphone.svg'
         },
         {
-          title: 'Desktop App',
+          title: 'Desktop Apps',
           imgSrc: '/svg/icons/tools-and-techs/monitor.png'
         },
         {
@@ -126,23 +126,19 @@ export default {
       ],
 
       items: [
-        'Web App',
+        'Web Apps',
         // mdiDevices,
-        'Mobile App',
+        'Mobile Apps',
         // mdiCellphoneIphone,
-        'Desktop App',
+        'Desktop Apps',
         // mdiMonitor,
-        'Mock Up',
-        // mdiTabletDashboard
-        'Wire Frame',
-        // mdiDesktopMacDashboard
-        'API',
+        'APIs',
         // mdiTransitConnectionVariant
-        'Database',
+        'Databases',
         // mdiDatabaseSettings
-        'Server Management',
+        'Servers',
         // mdiServerNetwork
-        'Scripts'
+        // 'Script'
         // mdiScriptTextOutline
       ]
     }

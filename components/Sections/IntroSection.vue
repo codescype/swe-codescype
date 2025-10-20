@@ -64,16 +64,16 @@
           column
           align-center
         >
-          <!-- <img
+          <img
             alt="opeyemi-david full-stack-image"
             src="~assets/img/drawkit-full-stack-man-colour-800px.png"
             style="height: 400px; width: max-width: 500px;"
-          /> -->
+          />
 
           <div>
             <h2
-              class="headline font-weight-bold mb-3"
-              style="letter-spacing: 0.05rem !important"
+              class="font-weight-bold mb-3"
+              style="letter-spacing: 0.1rem !important"
             >
               Senior
               <br class="hidden-sm-and-up" />
@@ -311,7 +311,9 @@ $section-intro-padding: 24px;
 
     @media #{map-get($display-breakpoints, 'md-and-up')} {
       padding: 40px;
-      padding-top: $side-bar-avatar-height + ($spacer * 8) + 40px;
+      /* Use this if the content image is disabled */
+      // padding-top: $side-bar-avatar-height + ($spacer * 8) + 40px;
+      padding-top: ($spacer * 8);
     }
 
     &__name {

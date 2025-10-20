@@ -2,6 +2,8 @@
 
 > A Senior Full Stack Software Engineer Portfolio for Codescype
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e67c4e75-91bd-42ba-ac28-f770d4eda7c2/deploy-status)](https://app.netlify.com/projects/swe-codescype/deploys)
+
 ## Build Setup
 
 ``` bash

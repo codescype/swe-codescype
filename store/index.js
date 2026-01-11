@@ -48,7 +48,7 @@ export const state = () => ({
     main: [
       {
         title: 'Phone',
-        value: '+2347039793175',
+        value: '+2348147678919',
         icon: mdiPhone
       },
 
